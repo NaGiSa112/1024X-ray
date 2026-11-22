@@ -1,0 +1,18 @@
+{
+  "per_class": {
+    "drinkbottle": 0.3120813600643454,
+    "glassbottle": 0.35444755321568566,
+    "knife": 0.08072997280003893,
+    "laptop": 0.9215017806510254,
+    "pressuretank": 0.03458433395016552,
+    "tool": 0.011205792741017488,
+    "umbrella": 0.8590406665526225
+  },
+  "mean_mapped": 0.36765592285355725,
+  "mean_all8": 0.3216989324968626,
+  "student_reference": 0.7858,
+  "n_images": 552,
+  "n_gt_boxes": 1381,
+  "n_detections": 155744,
+  "score_thr": 0.01
+}

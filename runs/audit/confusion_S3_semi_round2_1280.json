@@ -1,0 +1,168 @@
+{
+  "weights": "runs\\first_test\\S3_semi_round2\\weights\\best_map50.pt",
+  "imgsz": 1280,
+  "conf": 0.25,
+  "iou_thr": 0.5,
+  "n_images": 489,
+  "classes": [
+    "drinkbottle",
+    "glassbottle",
+    "knife",
+    "laptop",
+    "metalbottle",
+    "pressuretank",
+    "tool",
+    "umbrella"
+  ],
+  "matrix_rows_truth_cols_pred_plus_background": [
+    [
+      88,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      60
+    ],
+    [
+      0,
+      619,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      79
+    ],
+    [
+      0,
+      0,
+      25,
+      0,
+      0,
+      0,
+      0,
+      0,
+      13
+    ],
+    [
+      0,
+      0,
+      0,
+      39,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      118,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      2,
+      3,
+      0,
+      0,
+      0,
+      27,
+      0,
+      0,
+      13
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      6,
+      0,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      59,
+      2
+    ],
+    [
+      71,
+      212,
+      12,
+      13,
+      15,
+      40,
+      8,
+      6,
+      0
+    ]
+  ],
+  "per_class": {
+    "drinkbottle": {
+      "gt": 148,
+      "tp": 88,
+      "fn": 60,
+      "fp_background": 71
+    },
+    "glassbottle": {
+      "gt": 698,
+      "tp": 619,
+      "fn": 79,
+      "fp_background": 212
+    },
+    "knife": {
+      "gt": 38,
+      "tp": 25,
+      "fn": 13,
+      "fp_background": 12
+    },
+    "laptop": {
+      "gt": 40,
+      "tp": 39,
+      "fn": 1,
+      "fp_background": 13
+    },
+    "metalbottle": {
+      "gt": 119,
+      "tp": 118,
+      "fn": 1,
+      "fp_background": 15
+    },
+    "pressuretank": {
+      "gt": 40,
+      "tp": 27,
+      "fn": 13,
+      "fp_background": 40
+    },
+    "tool": {
+      "gt": 11,
+      "tp": 6,
+      "fn": 5,
+      "fp_background": 8
+    },
+    "umbrella": {
+      "gt": 61,
+      "tp": 59,
+      "fn": 2,
+      "fp_background": 6
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "tag": "A",
+  "weights": "E:\\X光\\runs\\first_test\\A_coco640\\weights\\best.pt",
+  "time": "2026-11-20T17:36:06",
+  "mAP50": 0.653,
+  "mAP50_95": 0.4844,
+  "precision": 0.7505,
+  "recall": 0.5899,
+  "per_class": {
+    "drinkbottle": {
+      "ap50": 0.4318,
+      "ap50_95": 0.2965
+    },
+    "glassbottle": {
+      "ap50": 0.8158,
+      "ap50_95": 0.6216
+    },
+    "knife": {
+      "ap50": 0.4936,
+      "ap50_95": 0.3519
+    },
+    "laptop": {
+      "ap50": 0.9329,
+      "ap50_95": 0.7371
+    },
+    "metalbottle": {
+      "ap50": 0.9681,
+      "ap50_95": 0.8722
+    },
+    "pressuretank": {
+      "ap50": 0.3141,
+      "ap50_95": 0.1901
+    },
+    "tool": {
+      "ap50": 0.3942,
+      "ap50_95": 0.1473
+    },
+    "umbrella": {
+      "ap50": 0.8737,
+      "ap50_95": 0.6581
+    }
+  },
+  "confusion": {
+    "drinkbottle": {
+      "pred": 149,
+      "true": 160,
+      "recall": 0.4875,
+      "precision": 0.5235
+    },
+    "glassbottle": {
+      "pred": 987,
+      "true": 881,
+      "recall": 0.7991,
+      "precision": 0.7133
+    },
+    "knife": {
+      "pred": 29,
+      "true": 41,
+      "recall": 0.3902,
+      "precision": 0.5517
+    },
+    "laptop": {
+      "pred": 39,
+      "true": 40,
+      "recall": 0.875,
+      "precision": 0.8974
+    },
+    "metalbottle": {
+      "pred": 130,
+      "true": 124,
+      "recall": 0.9435,
+      "precision": 0.9
+    },
+    "pressuretank": {
+      "pred": 57,
+      "true": 64,
+      "recall": 0.3906,
+      "precision": 0.4386
+    },
+    "tool": {
+      "pred": 15,
+      "true": 20,
+      "recall": 0.3,
+      "precision": 0.4
+    },
+    "umbrella": {
+      "pred": 67,
+      "true": 64,
+      "recall": 0.875,
+      "precision": 0.8358
+    }
+  },
+  "notes": "yolov8m COCO init, 640/50ep"
+}

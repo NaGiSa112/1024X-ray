@@ -1,0 +1,55 @@
+{
+  "run_id": "20261122_122448_F-B-H1-D-G-S2-S3",
+  "models": [
+    "F",
+    "B",
+    "H1",
+    "D",
+    "G",
+    "S2",
+    "S3"
+  ],
+  "checkpoints": {
+    "F": "E:\\X\u5149\\runs\\first_test\\N75_20261120_F1024\\weights\\best_map50.pt",
+    "B": "E:\\X\u5149\\runs\\first_test\\N75b_cls0625\\weights\\best_map50.pt",
+    "H1": "E:\\X\u5149\\runs\\first_test\\H1_hgnetv2\\weights\\best_map50.pt",
+    "D": "E:\\X\u5149\\runs\\first_test\\D_ft1024\\weights\\best.pt",
+    "G": "E:\\X\u5149\\runs\\first_test\\N75_20261120_G1280\\weights\\best_map50.pt",
+    "S2": "E:\\X\u5149\\runs\\first_test\\S2_semi_hgnetv2\\weights\\best_map50.pt",
+    "S3": "E:\\X\u5149\\runs\\first_test\\S3_semi_round2\\weights\\best_map50.pt"
+  },
+  "checkpoint_sha256_16": {
+    "F": "bb13491da3bf9b2e",
+    "B": "f5a5743876d1e109",
+    "H1": "ea940734c810e0c5",
+    "D": "21ba0d7244c4b4d3",
+    "G": "3d858f6652bf8730",
+    "S2": "bdb3cc0418e7a522",
+    "S3": "bdf83e43d133ccb2"
+  },
+  "weights": {
+    "F": 0.783202,
+    "B": 0.790154,
+    "H1": 0.756569,
+    "D": 0.767559,
+    "G": 0.776272,
+    "S2": 0.766748,
+    "S3": 0.792996
+  },
+  "iou_thr": 0.55,
+  "imgsz": 1024,
+  "imgsz_map": {
+    "F": 1536,
+    "B": 1536,
+    "H1": 1024,
+    "D": 1024,
+    "G": 1024,
+    "S2": 1536,
+    "S3": 1536
+  },
+  "conf": 0.001,
+  "tta": true,
+  "expected_mAP50": 0.8449504212080337,
+  "n_val_images": 489,
+  "val_manifest": "E:\\X\u5149\\runs\\audit\\E_content_disjoint_val.txt"
+}

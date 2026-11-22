@@ -1,0 +1,37 @@
+{
+  "nextvit_eds1": {
+    "loadable": false,
+    "reason": "ModuleNotFoundError: ERROR  E:\\X光\\weights\\nextvit_eds1.pt requires missing Ultralytics module 'ultralytics.nn.modules.nextvit'. Train a new model using the latest 'ultralytics' pack"
+  },
+  "hr_eds1": {
+    "loadable": false,
+    "reason": "AttributeError: Can't get attribute 'UpsampleAdd' on <module 'ultralytics.nn.modules.block' from 'E:\\\\X光\\\\.venv\\\\Lib\\\\site-packages\\\\ultralytics\\\\nn\\\\modules\\\\block.py'>"
+  },
+  "hgnetv2_eds1": {
+    "loadable": true,
+    "params_M": 54.66,
+    "nc": 10,
+    "names": [
+      "plasticbottle",
+      "knife",
+      "scissor",
+      "laptop",
+      "umbrella",
+      "lighter",
+      "device",
+      "powerbank",
+      "pressure",
+      "glassbottle"
+    ],
+    "task": "detect",
+    "size_MiB": 104.7
+  },
+  "lim_eds1": {
+    "loadable": false,
+    "reason": "AttributeError: Can't get attribute 'LIM_DFPN' on <module 'ultralytics.nn.modules.block' from 'E:\\\\X光\\\\.venv\\\\Lib\\\\site-packages\\\\ultralytics\\\\nn\\\\modules\\\\block.py'>"
+  },
+  "doam_eds1": {
+    "loadable": false,
+    "reason": "AttributeError: Can't get attribute 'DOAM' on <module 'ultralytics.nn.modules.block' from 'E:\\\\X光\\\\.venv\\\\Lib\\\\site-packages\\\\ultralytics\\\\nn\\\\modules\\\\block.py'>"
+  }
+}

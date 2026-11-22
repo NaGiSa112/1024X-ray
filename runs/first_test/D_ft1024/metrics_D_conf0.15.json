@@ -1,0 +1,60 @@
+{
+  "tag": "D_conf0.15",
+  "weights": "E:\\X光\\runs\\first_test\\D_ft1024\\weights\\best.pt",
+  "time": "2026-11-20T21:24:34",
+  "eval_config": {
+    "data": "E:\\X光\\data\\yolo\\data.yaml",
+    "split": "val",
+    "imgsz": 1024,
+    "batch": 6,
+    "conf": 0.15,
+    "cm_conf": 0.25,
+    "iou": 0.7,
+    "max_det": 300,
+    "augment": false,
+    "half": false,
+    "rect": true,
+    "workers": 8,
+    "skip_cm": true
+  },
+  "mAP50": 0.7142,
+  "mAP50_95": 0.5573,
+  "precision": 0.7973,
+  "recall": 0.7265,
+  "per_class": {
+    "drinkbottle": {
+      "ap50": 0.3669,
+      "ap50_95": 0.2853
+    },
+    "glassbottle": {
+      "ap50": 0.8283,
+      "ap50_95": 0.6625
+    },
+    "knife": {
+      "ap50": 0.5845,
+      "ap50_95": 0.4333
+    },
+    "laptop": {
+      "ap50": 0.9377,
+      "ap50_95": 0.7471
+    },
+    "metalbottle": {
+      "ap50": 0.9496,
+      "ap50_95": 0.8672
+    },
+    "pressuretank": {
+      "ap50": 0.5176,
+      "ap50_95": 0.3606
+    },
+    "tool": {
+      "ap50": 0.595,
+      "ap50_95": 0.4059
+    },
+    "umbrella": {
+      "ap50": 0.934,
+      "ap50_95": 0.6961
+    }
+  },
+  "confusion": null,
+  "notes": ""
+}

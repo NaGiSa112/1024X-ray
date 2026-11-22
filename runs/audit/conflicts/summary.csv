@@ -1,0 +1,216 @@
+﻿group,sha256,members,splits,stems,box_counts,severity,max_dev_px,detail
+0,0925ee8c50937906,2,"train,train","00003,03070","2,2",jitter,4.0,max deviation 4px
+1,5bac6f598ac15c54,2,"train,train","00022,02748","8,7",class_mismatch,,{'glassbottle': 8} vs {'glassbottle': 7}
+2,96992ce7c60cd805,2,"train,train","00027,05501","3,14",class_mismatch,,"{'glassbottle': 3} vs {'glassbottle': 4, 'drinkbottle': 10}"
+3,64a3a1099b7d9a52,3,"train,train,train","00031,04602,05535","7,7,7",jitter,6.0,max deviation 6px
+4,1b34919fee8fd5d2,2,"train,train","00044,04738","2,2",jitter,6.0,max deviation 6px
+5,7ab1e05352f8762a,2,"train,val","00095,00933","7,7",coordinate_mismatch,9.0,max deviation 9px
+6,138a306cbe99447c,3,"train,train,train","00103,03473,04950","3,3,4",class_mismatch,,"{'glassbottle': 3} vs {'glassbottle': 3, 'drinkbottle': 1}"
+7,a3b4487c92061eab,2,"train,val","00114,03965","3,3",jitter,7.0,max deviation 7px
+8,1e9d4b37147f0d7c,2,"train,train","00120,05308","8,7",class_mismatch,,{'glassbottle': 8} vs {'glassbottle': 7}
+9,b634f339ffaaa55e,2,"train,train","00128,03805","1,1",jitter,4.0,max deviation 4px
+10,e1709f17d0e5dba3,2,"train,train","00138,00983","2,2",jitter,5.0,max deviation 5px
+11,875af90027b7cf57,2,"train,train","00143,00893","10,8",class_mismatch,,{'glassbottle': 10} vs {'glassbottle': 8}
+12,f9a8f5aa280b797e,2,"train,train","00149,01542","12,10",class_mismatch,,{'glassbottle': 12} vs {'glassbottle': 10}
+13,65d36567b83c9933,2,"train,train","00150,01956","9,9",class_mismatch,,"{'glassbottle': 8, 'pressuretank': 1} vs {'glassbottle': 9}"
+14,395f8d18d06eb7e0,2,"train,train","00178,04534","6,8",class_mismatch,,"{'glassbottle': 2, 'pressuretank': 4} vs {'pressuretank': 6, 'glassbottle': 2}"
+15,675a9ce78a2ac0f4,2,"train,train","00181,04660","1,1",identical,1.0,max deviation 1px
+16,4e9fe828d1b70d26,2,"train,train","00196,03685","2,2",jitter,8.0,max deviation 8px
+17,570adbbe6b48dc02,2,"train,train","00217,02730","2,2",identical,2.0,max deviation 2px
+18,dc958acff857862e,2,"train,train","00227,02996","3,3",jitter,5.0,max deviation 5px
+19,e4def5350156f818,2,"train,train","00228,03345","2,1",class_mismatch,,"{'metalbottle': 1, 'glassbottle': 1} vs {'glassbottle': 1}"
+20,a1ec2669478a9da2,2,"train,train","00232,03360","1,1",identical,2.0,max deviation 2px
+21,8e7daf39682df281,3,"train,train,train","00235,03960,04036","1,1,1",jitter,5.0,max deviation 5px
+22,fa5433f8c58071ed,2,"train,train","00254,03673","3,2",class_mismatch,,{'glassbottle': 3} vs {'glassbottle': 2}
+23,c08a359cd4c26741,2,"train,train","00256,00871","6,6",jitter,4.0,max deviation 4px
+24,751652dbbe251276,2,"train,train","00294,00643","6,6",coordinate_mismatch,69.0,max deviation 69px
+25,e5e67c2c31d64723,2,"train,train","00298,02106","1,1",identical,2.0,max deviation 2px
+26,67f340c145ce55bb,2,"train,train","00345,02150","2,2",jitter,3.0,max deviation 3px
+27,aba55754d82d65a8,2,"train,train","00357,02501","1,1",identical,2.0,max deviation 2px
+28,16b42f9fe361b888,2,"train,val","00399,01256","1,3",class_mismatch,,{'glassbottle': 1} vs {'glassbottle': 3}
+29,e12b26062144a989,2,"train,train","00400,00635","1,1",identical,2.0,max deviation 2px
+30,dd246bb848f68a64,2,"train,val","00415,01201","2,2",jitter,3.0,max deviation 3px
+31,4e46d06a901c201b,2,"train,val","00449,01415","4,5",class_mismatch,,"{'drinkbottle': 2, 'glassbottle': 2} vs {'glassbottle': 3, 'drinkbottle': 2}"
+32,bf1c65044d115832,2,"train,val","00457,03660","2,2",jitter,3.0,max deviation 3px
+33,d332e6af86b8c83a,2,"train,train","00480,04104","2,2",jitter,3.0,max deviation 3px
+34,124680166cf9e406,2,"train,train","00495,02555","12,12",coordinate_mismatch,20.0,max deviation 20px
+35,3555eb8ec1834385,2,"train,train","00536,01537","3,5",class_mismatch,,{'glassbottle': 3} vs {'glassbottle': 5}
+36,f0c58962c10cd2d6,2,"train,train","00588,02568","3,8",class_mismatch,,"{'pressuretank': 2, 'glassbottle': 1} vs {'drinkbottle': 3, 'glassbottle': 3, 'pressuretank': 2}"
+37,ebb56abdce64010e,2,"train,train","00591,02824","4,6",class_mismatch,,"{'metalbottle': 1, 'glassbottle': 3} vs {'glassbottle': 2, 'metalbottle': 1, 'drinkbottle': 3}"
+38,e3b30dd65529970e,2,"train,train","00619,03039","15,16",class_mismatch,,{'glassbottle': 15} vs {'glassbottle': 16}
+39,0f803b871380cd9e,2,"train,train","00653,02122","7,6",class_mismatch,,{'glassbottle': 7} vs {'glassbottle': 6}
+40,609c5061de9088d2,2,"train,train","00692,05214","7,5",class_mismatch,,"{'glassbottle': 5, 'drinkbottle': 2} vs {'glassbottle': 5}"
+41,f5a8410351843f38,2,"train,train","00720,04425","14,19",class_mismatch,,"{'glassbottle': 13, 'pressuretank': 1} vs {'glassbottle': 18, 'pressuretank': 1}"
+42,d69db24f15dcf59a,2,"train,train","00727,02246","3,5",class_mismatch,,{'glassbottle': 3} vs {'glassbottle': 5}
+43,997b497c48f8190a,2,"train,train","00732,03046","9,7",class_mismatch,,{'glassbottle': 9} vs {'glassbottle': 7}
+44,690629edc847e3f8,2,"train,train","00742,02112","3,3",jitter,6.0,max deviation 6px
+45,53347157491e23e7,2,"train,train","00747,04599","5,5",coordinate_mismatch,11.0,max deviation 11px
+46,4a70933efbb3cf70,2,"train,train","00771,04757","22,27",class_mismatch,,"{'glassbottle': 19, 'pressuretank': 3} vs {'glassbottle': 24, 'pressuretank': 3}"
+47,5edae2227a231f66,2,"train,train","00772,04836","4,3",class_mismatch,,"{'glassbottle': 3, 'pressuretank': 1} vs {'pressuretank': 1, 'glassbottle': 2}"
+48,01880f2cf9bfc53a,2,"train,val","00816,04053","2,2",jitter,8.0,max deviation 8px
+49,3909a46bff636087,2,"train,val","00862,01845","2,2",jitter,4.0,max deviation 4px
+50,0acb0889429df06f,2,"train,train","00863,04842","1,1",identical,1.0,max deviation 1px
+51,fc092cabc0ad9bc2,2,"train,train","00864,01491","6,5",class_mismatch,,{'glassbottle': 6} vs {'glassbottle': 5}
+52,cdc439c44a8d28e1,2,"train,train","00911,03628","3,4",class_mismatch,,{'glassbottle': 3} vs {'glassbottle': 4}
+53,4ee5e627b5956709,2,"train,train","00914,03196","1,1",identical,1.0,max deviation 1px
+54,93750814c52af157,2,"train,train","00940,03042","2,7",class_mismatch,,{'glassbottle': 2} vs {'glassbottle': 7}
+55,00c55b5e90bc1215,2,"train,train","00960,05019","5,3",class_mismatch,,"{'drinkbottle': 2, 'glassbottle': 3} vs {'glassbottle': 3}"
+56,2f5ac0ed9a47b742,2,"train,train","00978,03873","3,3",jitter,5.0,max deviation 5px
+57,efaacdd4fd988247,2,"train,train","00993,02877","8,8",jitter,4.0,max deviation 4px
+58,06d7756e05bfb913,2,"train,val","00996,05360","4,1",class_mismatch,,"{'drinkbottle': 3, 'pressuretank': 1} vs {'pressuretank': 1}"
+59,d2f566aa27e59633,2,"train,train","01003,01293","2,5",class_mismatch,,"{'glassbottle': 2} vs {'drinkbottle': 2, 'glassbottle': 3}"
+60,ef3d74773fd2a0c2,2,"train,train","01005,01320","2,2",jitter,4.0,max deviation 4px
+61,3285baa911cf09d4,2,"train,train","01031,05197","6,6",jitter,3.0,max deviation 3px
+62,35defada4efcf0e0,2,"train,train","01099,04102","4,7",class_mismatch,,"{'glassbottle': 3, 'metalbottle': 1} vs {'glassbottle': 6, 'metalbottle': 1}"
+63,4e7642a8dc5da805,2,"train,train","01126,03471","6,6",jitter,5.0,max deviation 5px
+64,f1297334e09f9c4b,2,"train,train","01130,04307","1,1",identical,1.0,max deviation 1px
+65,df15dc711a04bfdf,2,"train,train","01163,03556","1,1",jitter,3.0,max deviation 3px
+66,07bf1570d095fc88,2,"train,train","01182,05224","3,3",jitter,4.0,max deviation 4px
+67,7ef62c283e8b9801,2,"train,train","01186,04456","1,1",jitter,8.0,max deviation 8px
+68,a58d1e26b5ce1937,2,"train,train","01224,02471","4,4",jitter,5.0,max deviation 5px
+69,537dde52b96df048,2,"train,train","01243,05294","6,3",class_mismatch,,"{'drinkbottle': 3, 'glassbottle': 3} vs {'glassbottle': 3}"
+70,798cdc9d666001e9,2,"train,train","01249,03068","2,2",identical,2.0,max deviation 2px
+71,d3a1bafe0e4a5dd2,3,"train,train,val","01312,04654,02736","4,6,1",class_mismatch,,"{'glassbottle': 1, 'drinkbottle': 3} vs {'glassbottle': 1}"
+72,c69205fde29360ec,2,"train,val","01379,02652","11,6",class_mismatch,,"{'drinkbottle': 5, 'glassbottle': 4, 'pressuretank': 2} vs {'glassbottle': 4, 'pressuretank': 2}"
+73,59f26984d010653a,2,"train,train","01382,01438","1,1",jitter,3.0,max deviation 3px
+74,8bf1a3e2346ed674,3,"train,train,val","01412,04479,01440","7,7,7",jitter,6.0,max deviation 6px
+75,170428687008cb2b,2,"train,train","01443,04718","9,9",jitter,6.0,max deviation 6px
+76,6eaa8fa5c548f0b2,2,"train,val","01445,00500","5,7",class_mismatch,,"{'glassbottle': 5} vs {'glassbottle': 6, 'pressuretank': 1}"
+77,d1db505be3af7aa8,3,"train,train,train","01466,02317,02914","5,5,5",coordinate_mismatch,23.0,max deviation 23px
+78,18365486af02dce0,2,"train,train","01486,02649","1,1",identical,2.0,max deviation 2px
+79,f00e92ff9306dbab,2,"train,train","01512,01605","6,4",class_mismatch,,{'glassbottle': 6} vs {'glassbottle': 4}
+80,82d8d1ee56a8df4e,2,"train,train","01518,05361","2,1",class_mismatch,,"{'glassbottle': 1, 'drinkbottle': 1} vs {'glassbottle': 1}"
+81,c65beaeefe5b8545,2,"train,val","01546,03437","5,4",class_mismatch,,{'glassbottle': 5} vs {'glassbottle': 4}
+82,c9b0dfe4708b90a8,2,"train,val","01571,04733","3,3",jitter,5.0,max deviation 5px
+83,4c888aa26c678196,2,"train,train","01573,03115","11,11",jitter,8.0,max deviation 8px
+84,edd0766a3ce6663f,2,"train,train","01601,04305","6,8",class_mismatch,,"{'glassbottle': 6} vs {'drinkbottle': 2, 'glassbottle': 6}"
+85,ecffcfdfa6618588,2,"train,train","01620,04777","11,10",class_mismatch,,{'glassbottle': 11} vs {'glassbottle': 10}
+86,619631ff691c548d,2,"train,train","01637,04885","7,7",identical,2.0,max deviation 2px
+87,5f088ceed4833949,2,"train,train","01639,04598","3,3",jitter,5.0,max deviation 5px
+88,6aa134bba00e9cf9,2,"train,train","01646,02303","5,5",coordinate_mismatch,12.0,max deviation 12px
+89,d35f47710c1cdd7e,2,"train,train","01656,02323","2,2",jitter,3.0,max deviation 3px
+90,ccd7b744405e9877,2,"train,train","01660,04781","1,1",coordinate_mismatch,13.0,max deviation 13px
+91,519707e675fab338,2,"train,train","01672,03361","1,6",class_mismatch,,{'glassbottle': 1} vs {'glassbottle': 6}
+92,b02025b08b9774da,2,"train,train","01675,03815","14,3",class_mismatch,,"{'glassbottle': 3, 'pressuretank': 11} vs {'glassbottle': 3}"
+93,2c52e826aa2b0f0b,2,"train,train","01699,04362","10,12",class_mismatch,,"{'glassbottle': 9, 'knife': 1} vs {'glassbottle': 9, 'drinkbottle': 1, 'knife': 1, 'pressuretank': 1}"
+94,59b6061197b28218,2,"train,train","01705,04126","1,2",class_mismatch,,{'glassbottle': 1} vs {'glassbottle': 2}
+95,dfbfdc65172bf0b9,2,"train,train","01713,04986","2,2",jitter,5.0,max deviation 5px
+96,1e04db17783a0ccc,2,"train,val","01721,00892","2,2",coordinate_mismatch,164.0,max deviation 164px
+97,8f1667d7f49709c2,2,"train,train","01743,04308","3,3",jitter,6.0,max deviation 6px
+98,fc471a65f3b29b12,2,"train,train","01748,05417","5,5",jitter,5.0,max deviation 5px
+99,86548c9e6a57c67b,2,"train,val","01758,00631","6,6",jitter,5.0,max deviation 5px
+100,c6cf62d80fc47834,2,"train,train","01765,04116","30,24",class_mismatch,,"{'drinkbottle': 8, 'glassbottle': 21, 'pressuretank': 1} vs {'drinkbottle': 3, 'glassbottle': 20, 'pressuretank': 1}"
+101,6c74edee4feed072,2,"train,train","01772,02778","5,15",class_mismatch,,{'glassbottle': 5} vs {'glassbottle': 15}
+102,cead40d6e3e6c03b,2,"train,train","01784,02754","1,1",jitter,5.0,max deviation 5px
+103,8e9de741ba2f605c,2,"train,train","01787,04961","12,12",jitter,3.0,max deviation 3px
+104,5ffe8e26bc894439,3,"train,train,train","01822,03994,05142","5,5,5",jitter,4.0,max deviation 4px
+105,cf8cf446295ae177,3,"train,train,train","01831,04483,05447","7,7,7",jitter,5.0,max deviation 5px
+106,0fadae112a5c49df,2,"train,train","01832,02245","10,10",jitter,4.0,max deviation 4px
+107,b59e0740bdec13c3,2,"train,train","01856,02331","3,3",identical,2.0,max deviation 2px
+108,d750116234213f9b,2,"train,val","01870,04799","3,1",class_mismatch,,"{'metalbottle': 1, 'glassbottle': 2} vs {'glassbottle': 1}"
+109,98de32ad5e9acc68,2,"train,train","01879,02727","1,1",jitter,3.0,max deviation 3px
+110,0702f77f686cbdff,2,"train,train","01918,04042","3,4",class_mismatch,,"{'glassbottle': 2, 'tool': 1} vs {'glassbottle': 3, 'tool': 1}"
+111,0379ac4a25830c82,2,"train,train","01921,02757","3,3",jitter,3.0,max deviation 3px
+112,ab15972ca157157e,2,"train,train","01931,02803","2,1",class_mismatch,,{'glassbottle': 2} vs {'glassbottle': 1}
+113,1e0d95ddd88b0c52,2,"train,train","01950,05062","6,6",coordinate_mismatch,9.0,max deviation 9px
+114,14bde6138aa61c4c,2,"train,train","01952,03017","5,6",class_mismatch,,"{'umbrella': 1, 'glassbottle': 4} vs {'glassbottle': 5, 'umbrella': 1}"
+115,82d47c0286d2ee1e,3,"train,val,val","01971,00609,05298","2,2,2",coordinate_mismatch,276.0,max deviation 276px
+116,bb9e8c75a02db5a2,2,"train,val","01975,03268","5,5",jitter,4.0,max deviation 4px
+117,b67f3c507e57b958,2,"train,val","02008,05047","1,1",jitter,3.0,max deviation 3px
+118,f917438887667385,2,"train,train","02013,05110","3,2",class_mismatch,,{'glassbottle': 3} vs {'glassbottle': 2}
+119,a1e4a5fe66241e62,3,"train,train,val","02052,03748,00881","4,4,3",class_mismatch,,"{'glassbottle': 3, 'drinkbottle': 1} vs {'glassbottle': 3}"
+120,a33e00ff6349b0eb,2,"train,train","02058,02081","5,4",class_mismatch,,"{'glassbottle': 3, 'drinkbottle': 2} vs {'drinkbottle': 1, 'glassbottle': 3}"
+121,be757349edb8ec34,2,"train,train","02071,04020","6,6",jitter,5.0,max deviation 5px
+122,6e5cc104cfb312bf,2,"train,train","02104,02577","8,9",class_mismatch,,"{'pressuretank': 4, 'drinkbottle': 1, 'glassbottle': 3} vs {'pressuretank': 4, 'drinkbottle': 2, 'glassbottle': 3}"
+123,bb6811da25b3f8cc,2,"train,train","02149,05347","8,4",class_mismatch,,{'drinkbottle': 8} vs {'glassbottle': 4}
+124,c86595a3ada901fb,2,"train,val","02152,04038","2,2",jitter,5.0,max deviation 5px
+125,3dcfcbdab6a1be87,2,"train,train","02166,05039","1,1",identical,2.0,max deviation 2px
+126,86b3ad6d63a276fa,2,"train,train","02195,04563","1,1",identical,2.0,max deviation 2px
+127,b36328a33d7f27ec,2,"train,train","02197,03299","7,6",class_mismatch,,{'glassbottle': 7} vs {'glassbottle': 6}
+128,2688381a010bc0d8,2,"train,train","02256,02629","2,3",class_mismatch,,{'glassbottle': 2} vs {'glassbottle': 3}
+129,9d83fac7104d8d90,2,"train,train","02282,04354","4,1",class_mismatch,,{'drinkbottle': 4} vs {'drinkbottle': 1}
+130,ab7ccb17f88382ee,2,"train,val","02283,03173","1,1",jitter,3.0,max deviation 3px
+131,11caf9f8478884df,2,"train,train","02320,02710","3,3",jitter,3.0,max deviation 3px
+132,8d6a0a88847aca0c,3,"train,train,train","02364,02545,03548","2,2,3",class_mismatch,,"{'glassbottle': 2} vs {'glassbottle': 2, 'pressuretank': 1}"
+133,34291f44eb6c52c7,2,"train,train","02368,03303","1,1",coordinate_mismatch,18.0,max deviation 18px
+134,684543420e9d2025,2,"train,train","02386,03053","2,1",class_mismatch,,{'metalbottle': 2} vs {'metalbottle': 1}
+135,db0c8ca0a7faa5a5,2,"train,train","02400,04217","3,1",class_mismatch,,{'glassbottle': 3} vs {'drinkbottle': 1}
+136,8605cd5bcfc68ba3,2,"train,train","02407,04277","3,2",class_mismatch,,{'glassbottle': 3} vs {'glassbottle': 2}
+137,3d919c12eb5e9fcf,3,"train,train,train","02419,02961,03371","3,3,3",identical,2.0,max deviation 2px
+138,77ae0e7147e2c27e,2,"train,train","02426,04859","7,4",class_mismatch,,"{'glassbottle': 6, 'drinkbottle': 1} vs {'glassbottle': 4}"
+139,9df11cfffe31a6c0,2,"train,val","02447,02206","6,6",jitter,3.0,max deviation 3px
+140,80c00d897df9ee47,2,"train,train","02464,02834","2,2",jitter,3.0,max deviation 3px
+141,f6b8918f6351e485,2,"train,train","02484,04591","6,7",class_mismatch,,"{'pressuretank': 1, 'glassbottle': 5} vs {'glassbottle': 5, 'pressuretank': 2}"
+142,d1905b0c0755f5ef,2,"train,train","02514,04765","7,7",jitter,6.0,max deviation 6px
+143,ae88db4a0d2c2841,2,"train,train","02515,04751","7,7",coordinate_mismatch,15.0,max deviation 15px
+144,1c3c83616f6f6742,2,"train,train","02539,05201","1,1",identical,2.0,max deviation 2px
+145,90a01ac59f3cfdf6,2,"train,val","02571,01296","1,1",identical,2.0,max deviation 2px
+146,7b40ee9f9c9090fc,2,"train,val","02586,01737","5,5",coordinate_mismatch,17.0,max deviation 17px
+147,547d2750c0091abf,2,"train,val","02608,05335","7,7",jitter,3.0,max deviation 3px
+148,d7e1021561ad63f7,2,"train,train","02657,04804","3,3",jitter,3.0,max deviation 3px
+149,2a1ebed303289d3f,2,"train,train","02660,02670","2,2",jitter,4.0,max deviation 4px
+150,680dd97048402274,2,"train,train","02662,05054","2,2",jitter,3.0,max deviation 3px
+151,771651f379cba3ec,2,"train,train","02690,04905","6,6",jitter,4.0,max deviation 4px
+152,4c9e71946e0e4bde,2,"train,train","02709,03287","9,9",jitter,4.0,max deviation 4px
+153,2312ee32e17f49c4,2,"train,train","02761,03934","2,2",identical,2.0,max deviation 2px
+154,168457406a77c153,2,"train,train","02800,05342","18,18",jitter,6.0,max deviation 6px
+155,07453d15588f3b81,2,"train,train","02804,05284","3,3",jitter,4.0,max deviation 4px
+156,665939adc69d5ecc,2,"train,train","02837,02849","7,7",jitter,6.0,max deviation 6px
+157,7e09d7e3bec972b2,2,"train,train","02869,04565","1,1",jitter,3.0,max deviation 3px
+158,36843ef087ffe081,2,"train,train","02876,04253","1,1",identical,2.0,max deviation 2px
+159,eb4e754821b4ba45,2,"train,train","02910,04056","2,2",jitter,3.0,max deviation 3px
+160,19c717ccb6ca5862,2,"train,train","02920,03387","1,1",identical,2.0,max deviation 2px
+161,e7592b227dfd026a,2,"train,train","02925,03582","6,6",jitter,4.0,max deviation 4px
+162,98eb4e2b5cd90992,2,"train,train","02933,05044","4,4",jitter,3.0,max deviation 3px
+163,81f861ebbab180cd,2,"train,train","02944,04111","8,9",class_mismatch,,{'glassbottle': 8} vs {'glassbottle': 9}
+164,d85c90fc4e7aa68a,2,"train,train","02955,03409","37,30",class_mismatch,,{'glassbottle': 37} vs {'glassbottle': 30}
+165,41462b9f3a57f9a1,2,"train,train","02971,03290","3,2",class_mismatch,,{'glassbottle': 3} vs {'glassbottle': 2}
+166,379629ad6486bba6,2,"train,train","02994,05401","4,4",jitter,3.0,max deviation 3px
+167,22c368191a072d63,2,"train,train","02995,03587","2,3",class_mismatch,,"{'pressuretank': 1, 'glassbottle': 1} vs {'glassbottle': 2, 'pressuretank': 1}"
+168,4d81f55c8f1e0a84,2,"train,train","03001,04127","26,24",class_mismatch,,{'glassbottle': 26} vs {'glassbottle': 24}
+169,e6068895ce772a83,2,"train,train","03047,03754","4,4",jitter,7.0,max deviation 7px
+170,f16349e07c92ad21,2,"train,val","03099,03262","1,2",class_mismatch,,{'glassbottle': 1} vs {'glassbottle': 2}
+171,eabb517f8bf20196,2,"train,train","03103,05177","6,6",class_mismatch,,"{'glassbottle': 4, 'umbrella': 1, 'pressuretank': 1} vs {'drinkbottle': 1, 'pressuretank': 1, 'glassbottle': 4}"
+172,83dd09d25387442b,3,"train,train,train","03148,04113,04734","1,1,2",class_mismatch,,"{'glassbottle': 1} vs {'drinkbottle': 1, 'glassbottle': 1}"
+173,6b877fff8a54bd7b,2,"train,train","03157,04033","11,10",class_mismatch,,"{'glassbottle': 9, 'drinkbottle': 1, 'pressuretank': 1} vs {'drinkbottle': 1, 'glassbottle': 9}"
+174,fe174c5d5af46eab,2,"train,train","03158,05502","5,7",class_mismatch,,"{'pressuretank': 3, 'glassbottle': 2} vs {'drinkbottle': 2, 'pressuretank': 3, 'glassbottle': 2}"
+175,da87a1907d81a97b,2,"train,train","03206,03304","2,2",jitter,4.0,max deviation 4px
+176,27a1e3c68c0ecfa6,2,"train,val","03234,05356","2,2",jitter,5.0,max deviation 5px
+177,25800d2453ef4804,3,"train,train,train","03242,03894,04798","3,3,3",jitter,7.0,max deviation 7px
+178,1fa6154519bf0fde,2,"train,train","03243,05515","2,3",class_mismatch,,{'glassbottle': 2} vs {'glassbottle': 3}
+179,d3a87f920af76d9e,2,"train,train","03330,04714","15,7",class_mismatch,,{'glassbottle': 15} vs {'glassbottle': 7}
+180,f63f2fcd00cd1c22,2,"train,train","03410,05550","18,27",class_mismatch,,"{'glassbottle': 11, 'drinkbottle': 7} vs {'glassbottle': 11, 'drinkbottle': 16}"
+181,be8b1b2ff1985eed,2,"train,train","03449,04556","3,4",class_mismatch,,"{'glassbottle': 3} vs {'glassbottle': 3, 'drinkbottle': 1}"
+182,f51a50faec5eb2ed,2,"train,train","03477,04800","8,1",class_mismatch,,"{'drinkbottle': 7, 'glassbottle': 1} vs {'glassbottle': 1}"
+183,1edac59c72a26d82,3,"train,val,val","03504,02827,04429","1,1,1",jitter,3.0,max deviation 3px
+184,4fa71a4389954e17,2,"train,train","03505,04021","5,5",identical,2.0,max deviation 2px
+185,95c0144c9ab07f28,2,"train,val","03638,05497","3,3",jitter,4.0,max deviation 4px
+186,b119a4c044f05f95,2,"train,train","03745,04433","4,6",class_mismatch,,{'glassbottle': 4} vs {'glassbottle': 6}
+187,3480f026e098b017,2,"train,val","03758,03992","3,3",jitter,3.0,max deviation 3px
+188,d5483125f5fbe6f2,2,"train,train","03854,05069","8,8",jitter,6.0,max deviation 6px
+189,4fe6575765e758cd,2,"train,train","03936,05392","2,2",jitter,6.0,max deviation 6px
+190,8135bedc5b7f50c0,2,"train,val","03988,01568","5,5",jitter,3.0,max deviation 3px
+191,625a160e4a8794db,2,"train,train","03998,04093","2,1",class_mismatch,,{'glassbottle': 2} vs {'glassbottle': 1}
+192,6f75511eb84788f7,2,"train,train","04086,04369","11,11",jitter,5.0,max deviation 5px
+193,77f255fd9272bdef,2,"train,val","04117,01324","3,3",jitter,3.0,max deviation 3px
+194,0e433cba098c237f,2,"train,train","04184,04225","1,1",identical,2.0,max deviation 2px
+195,e04dd6b8656a2e5c,2,"train,train","04241,04499","2,1",class_mismatch,,"{'drinkbottle': 1, 'glassbottle': 1} vs {'glassbottle': 1}"
+196,9d0eca63a4e04ac3,2,"train,val","04295,05278","1,1",identical,2.0,max deviation 2px
+197,4095f5b0a32fac81,2,"train,train","04357,05180","4,4",jitter,3.0,max deviation 3px
+198,dfb78f0056405fce,2,"train,train","04367,05037","3,3",jitter,3.0,max deviation 3px
+199,159d707e171fc5d7,2,"train,train","04501,04531","1,1",class_mismatch,,{'glassbottle': 1} vs {'metalbottle': 1}
+200,4974f7dcb217c64d,2,"train,train","04539,05105","1,1",identical,2.0,max deviation 2px
+201,c33b8830d9a864d0,2,"train,train","04612,05322","5,4",class_mismatch,,{'glassbottle': 5} vs {'glassbottle': 4}
+202,b0ec6176346cc434,2,"train,train","04672,04863","8,2",class_mismatch,,{'glassbottle': 8} vs {'glassbottle': 2}
+203,d92421df7238bce6,2,"train,val","04809,01057","1,1",jitter,4.0,max deviation 4px
+204,4aa8d886d8ca604f,2,"train,train","04957,05240","4,4",jitter,4.0,max deviation 4px
+205,039a2e111c4d50a2,2,"train,val","05033,03864","4,3",class_mismatch,,{'glassbottle': 4} vs {'glassbottle': 3}
+206,9d886f0cfc2c5673,3,"train,train,val","05115,05440,00652","7,7,7",jitter,3.0,max deviation 3px
+207,83026d604e68d3da,2,"train,val","05149,03040","1,1",identical,1.0,max deviation 1px
+208,b361e2ab2eaced73,2,"train,val","05548,01844","6,6",jitter,5.0,max deviation 5px
+209,8c268e68c0d522ff,2,"val,val","01017,01476","5,5",jitter,4.0,max deviation 4px
+210,7e0dbd7019caee52,2,"val,val","01858,04231","3,3",coordinate_mismatch,399.0,max deviation 399px
+211,84e40c5acd01ea25,2,"val,val","01861,02035","1,1",jitter,4.0,max deviation 4px
+212,cb8f0e9f8e0a00c1,2,"val,val","02011,02492","2,2",coordinate_mismatch,101.0,max deviation 101px
+213,50f129f75c88049a,2,"val,val","03057,03945","1,1",jitter,7.0,max deviation 7px
+214,7f78a4d07b265594,2,"val,val","03138,03479","6,18",class_mismatch,,"{'glassbottle': 4, 'pressuretank': 2} vs {'glassbottle': 16, 'pressuretank': 2}"

@@ -1,0 +1,67 @@
+{
+  "id": "2026-11-21_F_B_H1_fused",
+  "reported_date": "2026-11-21",
+  "submission_time": null,
+  "source": "User reported 75.335 and explicitly confirmed this three-model F+B+H1 file was not overwritten after submission.",
+  "submission_file": "E:/X光/results_test2_submit_fused.json",
+  "submission_sha256": "707edccf0f02e02ce054b5c2120ebd80e129dac5c07b00efe2ee803003a89d01",
+  "immutable_snapshot": "E:/X光/runs/online_submissions/2026-11-21_fused_75.335/submission.json",
+  "online_score": 75.335,
+  "improvement_over_previous_online_percentage_points": 5.094,
+  "remaining_to_target_percentage_points": 14.665,
+  "remaining_to_80_percentage_points": 4.665,
+  "remaining_to_85_percentage_points": 9.665,
+  "submitted_file_summary": {
+    "images": 2325,
+    "class_slots_per_image": 8,
+    "boxes": 101803,
+    "structural_validation": "passed on 2026-11-21"
+  },
+  "pipeline": "trained-model predictions fused using WBF; export_fused.py does not look up test-image annotations",
+  "components": [
+    {
+      "key": "F",
+      "weights": "E:/X光/runs/first_test/N75_20261120_F1024/weights/best_map50.pt",
+      "sha256": "e21b0d92012e6fe04894687e73cbbf8c7bb5de6bd994ea22e0d8a11139e2ebab"
+    },
+    {
+      "key": "B",
+      "weights": "E:/X光/runs/first_test/N75b_cls0625/weights/best_map50.pt",
+      "sha256": "d6ad8f88b35f49d62e1456e53e445f703c777f9abb9b65cffa92d60010c1729b"
+    },
+    {
+      "key": "H1",
+      "weights": "E:/X光/runs/first_test/H1_hgnetv2/weights/best_map50.pt",
+      "sha256": "c475b8c5804bac882f8596624fe2ad727730e95679c1fde810454874bb753ec5"
+    }
+  ],
+  "export_configuration_from_current_source_defaults": {
+    "imgsz": 1024,
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det_per_model": 300,
+    "wbf_iou": 0.55,
+    "batch": 8,
+    "augment": true,
+    "rect": false,
+    "weights": {
+      "F": 0.7806,
+      "B": 0.783,
+      "H1": 0.7565
+    },
+    "evidence": "src/export_fused.py defaults; exact launch arguments were not independently recovered"
+  },
+  "reported_local_reference": {
+    "score": 82.15,
+    "metric": "COCOeval AP50",
+    "images": 489,
+    "source": "E:/X光/进度总结_20261121.md",
+    "status": "Reported in progress summary and exporter docstring; generic ensemble_result.json has been overwritten by later experiments. Do not substitute its latest contents."
+  },
+  "interpretation": [
+    "Online 75-point milestone achieved; original overall target remains 90.",
+    "Two online/local pairs do not establish a fixed conversion coefficient.",
+    "The 5.094-point online improvement is over the earlier D pipeline; it is not an isolated measurement of fusion gain over the same F/B single-model baseline.",
+    "mAP cannot be linearly weighted by duplicate image percentage to bound leakage benefit."
+  ]
+}

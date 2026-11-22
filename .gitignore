@@ -1,0 +1,49 @@
+# ---- 数据与权重（体积大，不入库）----
+data/
+weights/
+deps/
+train.zip
+test2.zip
+
+# ---- 环境与缓存 ----
+.venv/
+venv/
+__pycache__/
+*.pyc
+.cache/
+.tmp/
+.ultralytics/
+.cache_pip/
+
+# ---- 训练产物（权重与逐轮可视化，体积大）----
+runs/**/weights/
+runs/**/*.pt
+runs/**/*.pth
+runs/**/predict*/
+runs/**/labels*.jpg
+runs/**/train_batch*.jpg
+runs/**/val_batch*.jpg
+
+# ---- 推理转储（可由脚本重算）----
+runs/audit/ensemble/**/preds_*.json
+runs/audit/**/dino_preds.json
+runs/audit/**/preds_*.json
+
+# ---- 训练日志（逐轮进度条，体积大；叙事日志 night2.log 保留）----
+runs/chain_logs/*-train.log
+runs/chain_logs/*-eval.log
+runs/chain_logs/*-export.log
+runs/chain_logs/*-resume.log
+runs/chain_logs/*-partial40.log
+
+# ---- 提交文件：只保留关键版本，其余为中间产物 ----
+results_test2_submit_*.json
+!submissions/
+!submissions/**
+
+# ---- 系统与编辑器 ----
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,554 @@
+{
+  "review_date": "2026-11-20",
+  "scope": "Exact file-byte SHA-256 separation only; near-duplicate scenes are not certified independent.",
+  "effective_training_images": 8743,
+  "original_validation_images": 555,
+  "validation_images_with_training_content": 66,
+  "new_contaminated_images_in_old_clean512": 23,
+  "remaining_validation_images": 489,
+  "remaining_boxes_per_class": {
+    "glassbottle": 700,
+    "metalbottle": 119,
+    "drinkbottle": 150,
+    "umbrella": 61,
+    "pressuretank": 45,
+    "laptop": 40,
+    "knife": 38,
+    "tool": 12
+  },
+  "evaluation_yaml": "E:/X光/runs/audit/E_content_disjoint_val.yaml",
+  "validation_manifest": "E:/X光/runs/audit/E_content_disjoint_val.txt",
+  "raw_train_test_exact_overlap_from_existing_md5_groups": {
+    "groups": 203,
+    "unique_test_images": 213,
+    "pairs": 235
+  },
+  "claims_not_supported": [
+    "A constant local-to-online multiplier of 0.919",
+    "90 online is impossible from this one score pair",
+    "0.7645 is an actual D+TTA clean-validation measurement",
+    "235 exact cross-set pairs are 235 unique test images"
+  ],
+  "clashes": [
+    {
+      "val_image": "E:/X光/data/yolo/images/val/00006.jpg",
+      "sha256": "27ba86b104a97cb5ca9393ac5118768e8150fe9a33d6035df851a04d6f9dfff3",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/pl_00933.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/00188.jpg",
+      "sha256": "d6023b548568cf417cbd2ec99b26835bbcf9efe1c38c6850d8a92764cdc958cd",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/pl_01382.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/00211.jpg",
+      "sha256": "2e9d10409b85992b8a6583c787166d6fa203613dba330db227c176d3401a7322",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/pl_00794.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/00358.jpg",
+      "sha256": "bd5166e5c5c033cf239425628905835e7e851dcbd720bc5cc19194964ba83811",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/pl_00897.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/00376.jpg",
+      "sha256": "84a4ba37c2e13c846025b4785cc1073a844c2c81b81be232a98137d9e3abb9d6",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/pl_01488.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/00500.jpg",
+      "sha256": "6eaa8fa5c548f0b2d335b240351ab4ca55850d69edcae7812ae6ee266d45891b",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/01445.jpg",
+        "E:/X光/data/yolo_pl/images/train/pl_01732.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/00609.jpg",
+      "sha256": "82d47c0286d2ee1e2dc10faf75b5d3691b76e3aa9a1b08edd744295c6bd03ae4",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/01971.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/00631.jpg",
+      "sha256": "86548c9e6a57c67b3d0aa59cd51140963820abdca58b515c2ad0ef090a9e9bbe",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/01758.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/00652.jpg",
+      "sha256": "9d886f0cfc2c56737dff29c29abdd4bc23daffab76387c5aae02a6504b6621d7",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/05115.jpg",
+        "E:/X光/data/yolo_pl/images/train/05440.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/00881.jpg",
+      "sha256": "a1e4a5fe66241e625c0055eddf7f17b43feec0a59d8f711e18d6e52961360383",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/02052.jpg",
+        "E:/X光/data/yolo_pl/images/train/02052_dup1.jpg",
+        "E:/X光/data/yolo_pl/images/train/03748.jpg",
+        "E:/X光/data/yolo_pl/images/train/03748_dup1.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/00892.jpg",
+      "sha256": "1e04db17783a0cccbf2abfcd4d27382558e34d68409a16f9ff060d8aa4943f09",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/01721.jpg",
+        "E:/X光/data/yolo_pl/images/train/01721_dup1.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/00933.jpg",
+      "sha256": "7ab1e05352f8762a4759c91730a6bfab7c9b9a1b22431c4c37402a63e9c0bae8",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/00095.jpg",
+        "E:/X光/data/yolo_pl/images/train/00095_dup1.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/01057.jpg",
+      "sha256": "d92421df7238bce61c999d1e026f79343f05056dd255f30afe70614c545fbd20",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/04809.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/01116.jpg",
+      "sha256": "2c4fa1e7e7c0d633740e5975f7415341d93346e743a3a84402a99ad596b836a5",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/pl_01374.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/01201.jpg",
+      "sha256": "dd246bb848f68a6448afec5280a724c7badf955891d32667e13f7301d9f8c591",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/00415.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/01256.jpg",
+      "sha256": "16b42f9fe361b888053b62fdcfbfa6f27bd158d1593df4e8bb92d96b61a53956",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/00399.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/01296.jpg",
+      "sha256": "90a01ac59f3cfdf6235f42aa236d0c32db97c5992829e845506c0c7d5e7ce209",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/02571.jpg",
+        "E:/X光/data/yolo_pl/images/train/pl_01273.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/01324.jpg",
+      "sha256": "77f255fd9272bdef18d36f52354c4ae88954ff98abb22270012858f1d7c13c57",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/04117.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/01415.jpg",
+      "sha256": "4e46d06a901c201bb9aa9f0921b10375b2f135cd6f6634a6cf2020a1672f7f39",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/00449.jpg",
+        "E:/X光/data/yolo_pl/images/train/00449_dup1.jpg",
+        "E:/X光/data/yolo_pl/images/train/pl_00553.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/01440.jpg",
+      "sha256": "8bf1a3e2346ed67476d19b3e2ba35c536747266fb54344ea8547996481d14907",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/01412.jpg",
+        "E:/X光/data/yolo_pl/images/train/04479.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/01469.jpg",
+      "sha256": "92e56edbf381ca3ffc589efbb19d130b3190a94a4cfef93b6392c26ca93e06c1",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/pl_00685.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/01500.jpg",
+      "sha256": "6226a949e9e8fb7f357c305cf9f688e8e8243c64d6559b8e6a17b10e68c57fa9",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/pl_00040.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/01568.jpg",
+      "sha256": "8135bedc5b7f50c08750229ffb66b8e1de3c5ec3041a5dc228d58bcde884edd0",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/03988.jpg",
+        "E:/X光/data/yolo_pl/images/train/03988_dup1.jpg",
+        "E:/X光/data/yolo_pl/images/train/03988_dup2.jpg",
+        "E:/X光/data/yolo_pl/images/train/03988_dup3.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/01737.jpg",
+      "sha256": "7b40ee9f9c9090fcaefd8fc951f6d1f46ebb39d4bd96a0e0c6b084b959759b39",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/02586.jpg",
+        "E:/X光/data/yolo_pl/images/train/02586_dup1.jpg",
+        "E:/X光/data/yolo_pl/images/train/02586_dup2.jpg",
+        "E:/X光/data/yolo_pl/images/train/02586_dup3.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/01844.jpg",
+      "sha256": "b361e2ab2eaced73cb8a8403e6f44be8f8dea8c5d6516b692a47029a8c504678",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/05548.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/01845.jpg",
+      "sha256": "3909a46bff636087307b3d90ee8990cc524fed0c717760423120b8a1cfbeae5c",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/00862.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/02206.jpg",
+      "sha256": "9df11cfffe31a6c08e7d4ac3c2a354283fba65b0404df3279f8e326d85fb69da",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/02447.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/02292.jpg",
+      "sha256": "c7ff41cd82a14eb3f459162f0969082500d2d38eaae0f1ac2dcbb2dfd317b158",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/pl_00002.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/02333.jpg",
+      "sha256": "3506a2f0263ddcb4a8c327b2d123ac17990132d324aff27acdd35baa8c5aea91",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/pl_00638.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/02601.jpg",
+      "sha256": "23345afa276d871176219d4a3870574fe6292f07b161131f08e8bf4fe351e1be",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/pl_00459.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/02652.jpg",
+      "sha256": "c69205fde29360ec4b2a0e5d1fa004eaba3b57c7e0b3719dd2c90c5db2680fec",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/01379.jpg",
+        "E:/X光/data/yolo_pl/images/train/01379_dup1.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/02719.jpg",
+      "sha256": "0938076b5ce6df83e3976cffc0b6426a21184ab302bce1229a8eeb7775929f2f",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/pl_00802.jpg",
+        "E:/X光/data/yolo_pl/images/train/pl_01669.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/02736.jpg",
+      "sha256": "d3a1bafe0e4a5dd2a4ce13bf5c4d400700e989c2c80aaf4021470cd159076c0e",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/01312.jpg",
+        "E:/X光/data/yolo_pl/images/train/01312_dup1.jpg",
+        "E:/X光/data/yolo_pl/images/train/04654.jpg",
+        "E:/X光/data/yolo_pl/images/train/04654_dup1.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/02827.jpg",
+      "sha256": "1edac59c72a26d825debf547eb0014648b9a98dbd021c3171d3fc03e8368634a",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/03504.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/02964.jpg",
+      "sha256": "adde4cd0aa03fdba55432b429128d18a3292af96a1e3964e5d87d7ef3677f290",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/pl_01553.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/02989.jpg",
+      "sha256": "c92dac76fb84151b301bcd77b4b1270af1c16cf14f46acdfda2f3683b92dfe5e",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/pl_01552.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/03040.jpg",
+      "sha256": "83026d604e68d3da3a5e4b237034fb64f1923fe01848fcd46a6a046d99526a35",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/05149.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/03138.jpg",
+      "sha256": "7f78a4d07b265594ccaa0fde8e65ddf223618cde2a00d94118064993eb974428",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/pl_01357.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/03169.jpg",
+      "sha256": "5cc07e4443ee10cbc0b52e2ca2e6a378e3b6df618f2fbb6d4bb81f382c27f1df",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/pl_00130.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/03173.jpg",
+      "sha256": "ab7ccb17f88382ee2366740e89c7bf78ff81a7e2d9171e79b5a9ba39ea887962",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/02283.jpg",
+        "E:/X光/data/yolo_pl/images/train/02283_dup1.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/03262.jpg",
+      "sha256": "f16349e07c92ad21b7b2ebf63e812bb5ee9dfe98bd196df1722d5e833cb811b7",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/03099.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/03268.jpg",
+      "sha256": "bb9e8c75a02db5a209be1956eea901c9807732b801628a1402969c3da3209041",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/01975.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/03343.jpg",
+      "sha256": "8b3095c1ec2fcd0e93d481a8a578414f31b37d45fe5e008b6c345ef6f11ad96e",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/pl_01341.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/03437.jpg",
+      "sha256": "c65beaeefe5b854555326a56b8b4c1bdfd1f8faa386372a26605b25278c219c3",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/01546.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/03479.jpg",
+      "sha256": "7f78a4d07b265594ccaa0fde8e65ddf223618cde2a00d94118064993eb974428",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/pl_01357.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/03660.jpg",
+      "sha256": "bf1c65044d11583213ee2d4beb0d8c55194537031bbf889032493fa9af06baab",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/00457.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/03864.jpg",
+      "sha256": "039a2e111c4d50a26ed0781f74bc4f18ed038b1c46f8ec38b6310a0d5ce1c59d",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/05033.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/03965.jpg",
+      "sha256": "a3b4487c92061eabffaf67a10a9d90359ce36d8adcac92ef6dc77dab2d101259",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/00114.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/03992.jpg",
+      "sha256": "3480f026e098b017940b4f08e9ebacc27e93691f8482f80a924fbd987b6dc6b9",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/03758.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/04038.jpg",
+      "sha256": "c86595a3ada901fb042283f0d16f191194ae85ee0d59e0d8a27251889723d49b",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/02152.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/04053.jpg",
+      "sha256": "01880f2cf9bfc53afcad8de669672b117959482bce362bbe06c6b0e584378787",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/00816.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/04260.jpg",
+      "sha256": "a96d0712f0b9707d2dd9798e683baff5814859d2c47b8b65a04a811abe8ae547",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/pl_00434.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/04272.jpg",
+      "sha256": "4e1d82eaa1db3ad6161308aa4d2419d644fd2ab2f95ee4889c2f164a2464fb00",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/pl_00144.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/04429.jpg",
+      "sha256": "1edac59c72a26d825debf547eb0014648b9a98dbd021c3171d3fc03e8368634a",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/03504.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/04733.jpg",
+      "sha256": "c9b0dfe4708b90a84e3d93f5f9eb967811007a2f3aab33a40ea1a21eec31a515",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/01571.jpg",
+        "E:/X光/data/yolo_pl/images/train/01571_dup1.jpg",
+        "E:/X光/data/yolo_pl/images/train/01571_dup2.jpg",
+        "E:/X光/data/yolo_pl/images/train/01571_dup3.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/04799.jpg",
+      "sha256": "d750116234213f9b1c21288de237c1e125ee58232abc6358459d3f46f858fb3b",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/01870.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/04884.jpg",
+      "sha256": "c882f3229ca18e85ecfaf91c0b10c1f0a4257c80d580414e118a6ad74b3b4ff7",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/pl_00121.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/05047.jpg",
+      "sha256": "b67f3c507e57b95824a8f89d9191ae0893dac7a182c90280ee2cc8b23d6d8e2c",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/02008.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/05091.jpg",
+      "sha256": "cb8ead5181c570937f46554812adf7b9bf4ba59878464e6ce71a2c0b2ff67a01",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/pl_01258.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/05278.jpg",
+      "sha256": "9d0eca63a4e04ac328cff6d28c0b231488fc5388fccf36baca2c7e7d9846d7d0",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/04295.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/05298.jpg",
+      "sha256": "82d47c0286d2ee1e2dc10faf75b5d3691b76e3aa9a1b08edd744295c6bd03ae4",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/01971.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/05335.jpg",
+      "sha256": "547d2750c0091abf102c901fcf044b8b14e740242812a6523f49feae58dda704",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/02608.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/05356.jpg",
+      "sha256": "27a1e3c68c0ecfa6c8dc8bab57f27a2c72325aa16658a48de0edfc1a4f0e1c04",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/03234.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/05360.jpg",
+      "sha256": "06d7756e05bfb913cb3ede16e5ddd5c1e17dfc6da103e5c29c55c068efe4761a",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/00996.jpg",
+        "E:/X光/data/yolo_pl/images/train/00996_dup1.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/05400.jpg",
+      "sha256": "557943276307b34c7bc04a4b91148cec2d09891f55a1eaa28c34d7b94f7e149b",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/pl_01726.jpg"
+      ]
+    },
+    {
+      "val_image": "E:/X光/data/yolo/images/val/05497.jpg",
+      "sha256": "95c0144c9ab07f28d37249e24efc8b9ce2af6fa36982f3a61fb08cbb1ffc95df",
+      "training_images": [
+        "E:/X光/data/yolo_pl/images/train/03638.jpg"
+      ]
+    }
+  ],
+  "actual_D_training_duplicate_statistics": {
+    "images": 5023,
+    "internal_duplicate_groups": 172,
+    "internal_duplicate_pairs": 192,
+    "redundant_copies": 182,
+    "unique_overlapping_test_images": 189,
+    "source": "Existing MD5 groups filtered by actual D train filenames"
+  },
+  "tiny_glass_review": {
+    "boxes": 346,
+    "train_boxes": 321,
+    "val_boxes": 25,
+    "raw_median_width_height": [
+      19,
+      30
+    ],
+    "median_width_height_at_1024_long_edge": [
+      11.06,
+      17.58
+    ],
+    "boxes_short_side_below_8_at_1024": 57,
+    "visual_sample_boxes": 12,
+    "visual_sample": "E:/X光/.tmp/review_tiny_boxes.png",
+    "finding": "Size alone does not establish label noise; sampled crops include visible object structures. Do not automatically remove these labels."
+  },
+  "interpretation_cautions": [
+    "Leaked subset has GT for only six classes, clean subset for eight; aggregate AP and recall are not a controlled causal comparison.",
+    "AP cannot be linearly weighted by image counts to estimate test leakage score impact.",
+    "Content-disjoint489 excludes exact file-byte collisions only, not all near-duplicate scenes.",
+    "Current E combines pseudo-labels, oversampling and extra training; its change cannot be attributed to one factor."
+  ]
+}

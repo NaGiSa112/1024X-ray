@@ -1,0 +1,94 @@
+{
+  "tag": "B_eds640",
+  "weights": "E:\\X光\\runs\\first_test\\B_eds640\\weights\\best.pt",
+  "time": "2026-11-20T18:41:27",
+  "mAP50": 0.6982,
+  "mAP50_95": 0.5345,
+  "precision": 0.8035,
+  "recall": 0.6197,
+  "per_class": {
+    "drinkbottle": {
+      "ap50": 0.4069,
+      "ap50_95": 0.295
+    },
+    "glassbottle": {
+      "ap50": 0.839,
+      "ap50_95": 0.6362
+    },
+    "knife": {
+      "ap50": 0.5936,
+      "ap50_95": 0.4205
+    },
+    "laptop": {
+      "ap50": 0.9736,
+      "ap50_95": 0.7998
+    },
+    "metalbottle": {
+      "ap50": 0.9689,
+      "ap50_95": 0.8656
+    },
+    "pressuretank": {
+      "ap50": 0.361,
+      "ap50_95": 0.2666
+    },
+    "tool": {
+      "ap50": 0.5265,
+      "ap50_95": 0.2735
+    },
+    "umbrella": {
+      "ap50": 0.9165,
+      "ap50_95": 0.7183
+    }
+  },
+  "confusion": {
+    "drinkbottle": {
+      "pred": 123,
+      "true": 160,
+      "recall": 0.3688,
+      "precision": 0.4797
+    },
+    "glassbottle": {
+      "pred": 964,
+      "true": 881,
+      "recall": 0.8263,
+      "precision": 0.7552
+    },
+    "knife": {
+      "pred": 27,
+      "true": 41,
+      "recall": 0.4634,
+      "precision": 0.7037
+    },
+    "laptop": {
+      "pred": 40,
+      "true": 40,
+      "recall": 0.925,
+      "precision": 0.925
+    },
+    "metalbottle": {
+      "pred": 134,
+      "true": 124,
+      "recall": 0.9677,
+      "precision": 0.8955
+    },
+    "pressuretank": {
+      "pred": 64,
+      "true": 64,
+      "recall": 0.4062,
+      "precision": 0.4062
+    },
+    "tool": {
+      "pred": 12,
+      "true": 20,
+      "recall": 0.4,
+      "precision": 0.6667
+    },
+    "umbrella": {
+      "pred": 65,
+      "true": 64,
+      "recall": 0.875,
+      "precision": 0.8615
+    }
+  },
+  "notes": "yolov8l EDS-1 init, same args as A"
+}

@@ -1,0 +1,172 @@
+{
+  "config": {
+    "run_id": "20261122_061456_F-B-H1-G-S1-S2",
+    "created_at": "2026-11-22T06:14:56+08:00",
+    "models": [
+      "F",
+      "B",
+      "H1",
+      "G",
+      "S1",
+      "S2"
+    ],
+    "checkpoints": {
+      "F": "E:\\X\u5149\\runs\\first_test\\N75_20261120_F1024\\weights\\best_map50.pt",
+      "B": "E:\\X\u5149\\runs\\first_test\\N75b_cls0625\\weights\\best_map50.pt",
+      "H1": "E:\\X\u5149\\runs\\first_test\\H1_hgnetv2\\weights\\best_map50.pt",
+      "G": "E:\\X\u5149\\runs\\first_test\\N75_20261120_G1280\\weights\\best_map50.pt",
+      "S1": "E:\\X\u5149\\runs\\first_test\\S1_semi_yolov8l\\weights\\best_map50.pt",
+      "S2": "E:\\X\u5149\\runs\\first_test\\S2_semi_hgnetv2\\weights\\best_map50.pt"
+    },
+    "checkpoint_sha256_16": {
+      "F": "bb13491da3bf9b2e",
+      "B": "f5a5743876d1e109",
+      "H1": "ea940734c810e0c5",
+      "G": "3d858f6652bf8730",
+      "S1": "7311dbc6cb35f016",
+      "S2": "bdb3cc0418e7a522"
+    },
+    "imgsz": 1024,
+    "conf": 0.001,
+    "tta": true,
+    "iou_grid": "0.5,0.55",
+    "val_manifest": "E:\\X\u5149\\runs\\audit\\E_content_disjoint_val.txt",
+    "val_manifest_sha256_16": "545e76618ae0a52c",
+    "n_val_images": 489,
+    "n_gt_boxes": 1165,
+    "scorer": "pycocotools COCOeval, iouThr=0.5, all-point"
+  },
+  "singles": [
+    {
+      "label": "single_F",
+      "mAP50": 0.78055736905514,
+      "per_class": {
+        "drinkbottle": 0.551900523091037,
+        "glassbottle": 0.8773375368934021,
+        "knife": 0.6505787916320191,
+        "laptop": 0.9248080684875528,
+        "metalbottle": 0.9695543189470938,
+        "pressuretank": 0.6903432625215291,
+        "tool": 0.5932894403928741,
+        "umbrella": 0.9866470104756122
+      }
+    },
+    {
+      "label": "single_B",
+      "mAP50": 0.7829751819203681,
+      "per_class": {
+        "drinkbottle": 0.6167151677850197,
+        "glassbottle": 0.8740553456032342,
+        "knife": 0.7328379110556243,
+        "laptop": 0.9304132925066447,
+        "metalbottle": 0.9713997440257717,
+        "pressuretank": 0.6845751999584629,
+        "tool": 0.48155020868714454,
+        "umbrella": 0.9722545857410418
+      }
+    },
+    {
+      "label": "single_H1",
+      "mAP50": 0.7565689318386827,
+      "per_class": {
+        "drinkbottle": 0.589571373655876,
+        "glassbottle": 0.8717154283388792,
+        "knife": 0.642970979643864,
+        "laptop": 0.9418288830266612,
+        "metalbottle": 0.9837695699284432,
+        "pressuretank": 0.5530137330946913,
+        "tool": 0.4907451015015918,
+        "umbrella": 0.9789363855194555
+      }
+    },
+    {
+      "label": "single_G",
+      "mAP50": 0.7762721368653283,
+      "per_class": {
+        "drinkbottle": 0.5535029737008742,
+        "glassbottle": 0.8766797659244778,
+        "knife": 0.7225246180384826,
+        "laptop": 0.9313828420995932,
+        "metalbottle": 0.9575700671368839,
+        "pressuretank": 0.6432318338484404,
+        "tool": 0.5539662284452035,
+        "umbrella": 0.9713187657286703
+      }
+    },
+    {
+      "label": "single_S1",
+      "mAP50": 0.7988272057756216,
+      "per_class": {
+        "drinkbottle": 0.6036567865468386,
+        "glassbottle": 0.8792897291889623,
+        "knife": 0.7738675017451475,
+        "laptop": 0.9773385115638628,
+        "metalbottle": 0.9769539342874867,
+        "pressuretank": 0.7077553017654241,
+        "tool": 0.4863576485959655,
+        "umbrella": 0.9853982325112862
+      }
+    },
+    {
+      "label": "single_S2",
+      "mAP50": 0.7731940111052189,
+      "per_class": {
+        "drinkbottle": 0.5647965480262978,
+        "glassbottle": 0.8623251719555286,
+        "knife": 0.6951117573053658,
+        "laptop": 0.9176092741703765,
+        "metalbottle": 0.9786839840154282,
+        "pressuretank": 0.6435158855513844,
+        "tool": 0.5294800188302143,
+        "umbrella": 0.9940294489871563
+      }
+    }
+  ],
+  "fused_by_iou": [
+    {
+      "label": "fused_iou50",
+      "mAP50": 0.8339519583688916,
+      "per_class": {
+        "drinkbottle": 0.6519706296323222,
+        "glassbottle": 0.9021482024003609,
+        "knife": 0.7860931942354679,
+        "laptop": 0.9614075446953563,
+        "metalbottle": 0.9817509125290319,
+        "pressuretank": 0.7214110491815559,
+        "tool": 0.6735169724552217,
+        "umbrella": 0.9933171618218162
+      },
+      "iou_thr": 0.5
+    },
+    {
+      "label": "fused_iou55",
+      "mAP50": 0.8350174829318622,
+      "per_class": {
+        "drinkbottle": 0.6520866404536061,
+        "glassbottle": 0.9023376796964999,
+        "knife": 0.7861717327383626,
+        "laptop": 0.9613473563056963,
+        "metalbottle": 0.9818154961018171,
+        "pressuretank": 0.7213867015015103,
+        "tool": 0.6822434190736466,
+        "umbrella": 0.9927508375837586
+      },
+      "iou_thr": 0.55
+    }
+  ],
+  "best_fused": {
+    "label": "fused_iou55",
+    "mAP50": 0.8350174829318622,
+    "per_class": {
+      "drinkbottle": 0.6520866404536061,
+      "glassbottle": 0.9023376796964999,
+      "knife": 0.7861717327383626,
+      "laptop": 0.9613473563056963,
+      "metalbottle": 0.9818154961018171,
+      "pressuretank": 0.7213867015015103,
+      "tool": 0.6822434190736466,
+      "umbrella": 0.9927508375837586
+    },
+    "iou_thr": 0.55
+  }
+}

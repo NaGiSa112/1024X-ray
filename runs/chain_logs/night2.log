@@ -1,0 +1,12 @@
+﻿[2026-11-22 00:56:53] STAGE A: training S1_semi_yolov8l on semi-supervised data (40 epochs, 1024, batch 6)
+[2026-11-22 03:42:25] STAGE A done
+[2026-11-22 03:42:25] STAGE B1: single-model evaluation of S1_semi_yolov8l on the 489 split
+[2026-11-22 03:43:41]   S1_semi_yolov8l single mAP50 = 0.7972
+[2026-11-22 03:43:41] STAGE B2: fusion evaluation (F,B,H1,D,G,S1)
+[2026-11-22 03:48:44]   fusion best mAP50 = 0.8282522824768331 (iou_thr 0.5)
+[2026-11-22 03:48:44] STAGE B3: exporting submission from 20261122_034350_F-B-H1-D-G-S1
+[2026-11-22 03:59:05] DELIVERABLE READY: results_test2_submit_night2.json (valid)
+[2026-11-22 03:59:05] STAGE C: training S2_semi_hgnetv2 for 11 epochs (clock-limited)
+[2026-11-22 04:51:48]   S2_semi_hgnetv2 single mAP50 = 0.7729
+[2026-11-22 04:51:48] STAGE C done -- rerun the fusion with S2 added to compare before exporting
+[2026-11-22 04:51:48] NIGHT2 FINISHED

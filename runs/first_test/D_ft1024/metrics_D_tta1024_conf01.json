@@ -1,0 +1,59 @@
+{
+  "tag": "D_tta1024_conf01",
+  "weights": "E:\\X光\\runs\\first_test\\D_ft1024\\weights\\best.pt",
+  "time": "2026-11-20T21:15:18",
+  "eval_config": {
+    "data": "E:\\X光\\data\\yolo\\data.yaml",
+    "split": "val",
+    "imgsz": 1024,
+    "batch": 4,
+    "conf": 0.01,
+    "cm_conf": 0.25,
+    "iou": 0.7,
+    "max_det": 300,
+    "augment": true,
+    "half": false,
+    "workers": 8,
+    "skip_cm": true
+  },
+  "mAP50": 0.776,
+  "mAP50_95": 0.6017,
+  "precision": 0.7811,
+  "recall": 0.7436,
+  "per_class": {
+    "drinkbottle": {
+      "ap50": 0.4844,
+      "ap50_95": 0.3524
+    },
+    "glassbottle": {
+      "ap50": 0.8626,
+      "ap50_95": 0.689
+    },
+    "knife": {
+      "ap50": 0.7334,
+      "ap50_95": 0.5426
+    },
+    "laptop": {
+      "ap50": 0.9483,
+      "ap50_95": 0.8023
+    },
+    "metalbottle": {
+      "ap50": 0.9665,
+      "ap50_95": 0.8787
+    },
+    "pressuretank": {
+      "ap50": 0.628,
+      "ap50_95": 0.446
+    },
+    "tool": {
+      "ap50": 0.6278,
+      "ap50_95": 0.3737
+    },
+    "umbrella": {
+      "ap50": 0.9572,
+      "ap50_95": 0.7288
+    }
+  },
+  "confusion": null,
+  "notes": "Validation score floor 0.01 to match observed submitted-file filtering; no new training"
+}
